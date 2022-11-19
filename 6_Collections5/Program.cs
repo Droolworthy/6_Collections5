@@ -9,10 +9,10 @@ namespace _6_Collections5
         {
             HashSet<string> sortNumbers = new();
             
-            EliminationRepetitions(sortNumbers);
+            EliminateRepetition(sortNumbers);
         }
 
-        static void EliminationRepetitions(HashSet<string> sortNumbers)
+        static void EliminateRepetition(HashSet<string> sortNumbers)
         {
             string[] listNumbers = new string[] { "50", "30", "10", "20" };
             string[] followingListNumbers = new string[] { "50", "60", "20", "10" };
