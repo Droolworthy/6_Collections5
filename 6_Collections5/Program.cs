@@ -8,6 +8,12 @@ namespace _6_Collections5
         static void Main(string[] args)
         {
             HashSet<string> sortNumbers = new();
+            
+            EliminationRepetitions(sortNumbers);
+        }
+
+        static void EliminationRepetitions(HashSet<string> sortNumbers)
+        {
             string[] listNumbers = new string[] { "50", "30", "10", "20" };
             string[] followingListNumbers = new string[] { "50", "60", "20", "10" };
             sortNumbers.UnionWith(listNumbers);
